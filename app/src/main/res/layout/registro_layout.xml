@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Registro_Activity">
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logonovo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apps Login"
+            android:textColor="@color/corFonte"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_person"
+            android:hint="Username"
+            android:padding="20dp"
+            android:textColorHint="@color/corFonte" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_email"
+            android:hint="Email"
+            android:padding="20dp"
+            android:textColorHint="@color/corFonte" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_lock"
+            android:hint="Password"
+            android:padding="20dp"
+            android:textColorHint="@color/corFonte" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_lock"
+            android:hint="Replace Password"
+            android:padding="20dp"
+            android:textColorHint="@color/corFonte" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botao"
+            android:padding="20dp"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textColor="@color/corFonte"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
