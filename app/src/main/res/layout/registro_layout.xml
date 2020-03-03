@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Apps Login"
+            android:text="@string/apps_login"
             android:textColor="@color/corFonte"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -35,7 +35,7 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_person"
-            android:hint="Username"
+            android:hint="@string/username"
             android:inputType="textPersonName"
             android:padding="20dp"
             android:textColorHint="@color/corFonte" />
@@ -46,7 +46,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_email"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="20dp"
             android:textColorHint="@color/corFonte" />
@@ -57,7 +57,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_lock"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="20dp"
             android:textColorHint="@color/corFonte" />
@@ -68,7 +68,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_lock"
-            android:hint="Replace Password"
+            android:hint="@string/replace_password"
             android:inputType="textPassword"
             android:padding="20dp"
             android:textColorHint="@color/corFonte" />
@@ -79,7 +79,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/botao"
             android:padding="20dp"
-            android:text="Sign Up"
+            android:text="@string/sign_up"
             android:textAllCaps="false"
             android:textColor="@color/corFonte"
             android:textSize="25dp" />

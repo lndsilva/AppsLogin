@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">AppsLogin</string>
     <string name="forget_password"><u>Forget Password?</u></string>
-    <string name="creat_new"><u>Creat new?</u></string>
+    <string name="create_new"><u>Create new?</u></string>
+    <string name="apps_login">Apps Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="email">Email</string>
+    <string name="replace_password">Replace Password</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
