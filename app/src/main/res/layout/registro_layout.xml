@@ -84,6 +84,5 @@
             android:textColor="@color/corFonte"
             android:textSize="25dp" />
 
-
     </LinearLayout>
 </LinearLayout>
