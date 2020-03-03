@@ -30,41 +30,45 @@
             android:textStyle="bold" />
 
         <EditText
-            android:layout_marginTop="40dp"
+            android:inputType="textPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_person"
             android:hint="Username"
             android:padding="20dp"
+            android:textColor="@color/corFonte"
             android:textColorHint="@color/corFonte" />
 
         <EditText
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_lock"
             android:hint="Password"
+            android:inputType="textPassword"
             android:padding="20dp"
+            android:textColor="@color/corFonte"
             android:textColorHint="@color/corFonte" />
 
         <Button
-            android:textSize="25dp"
-            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:background="@drawable/botao"
             android:padding="20dp"
             android:text="Sign in"
             android:textAllCaps="false"
-            android:textColor="@color/corFonte" />
+            android:textColor="@color/corFonte"
+            android:textSize="25dp" />
 
         <TextView
-            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Forget Password?"
+            android:layout_marginTop="20dp"
+            android:text="@string/forget_password"
             android:textColor="@color/corFonte" />
 
         <LinearLayout
@@ -74,18 +78,18 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_marginTop="85dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
                 android:text="Don't have an account?"
                 android:textColor="@color/corFonte" />
 
             <TextView
-                android:layout_marginTop="85dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Creat new?"
+                android:layout_marginTop="85dp"
+                android:text="@string/creat_new"
                 android:textColor="@color/corFonte" />
         </LinearLayout>
 
