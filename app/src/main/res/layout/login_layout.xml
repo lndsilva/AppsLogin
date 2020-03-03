@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/fundo_apps"
     android:orientation="vertical"
     tools:context=".Login_Activity">
 
@@ -30,13 +30,14 @@
             android:textStyle="bold" />
 
         <EditText
-            android:inputType="textPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_person"
             android:hint="Username"
+            android:inputType="textPersonName"
+            android:maxLength="30"
             android:padding="20dp"
             android:textColor="@color/corFonte"
             android:textColorHint="@color/corFonte" />
@@ -49,6 +50,7 @@
             android:drawableRight="@drawable/ic_lock"
             android:hint="Password"
             android:inputType="textPassword"
+            android:maxLength="30"
             android:padding="20dp"
             android:textColor="@color/corFonte"
             android:textColorHint="@color/corFonte" />
